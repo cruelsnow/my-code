@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a {
+            border-top-left-radius: 90px;
+            border-top-right-radius: 90px;
+            background-color: aqua;
+            border: 2px solid black;
+            height: 200px;
+            width: 400px;
+            box-shadow: inset -5px -5px 5px;
+
+
+        }
+
+        #b {
+            border-top-left-radius: 90px;
+            border-top-right-radius: 90px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            height: 200px;
+            width: 400px;
+            box-shadow: inset 5px 5px 5px;
+        }
+
+
+        <td> {
+            text-align: right
+        }
+
+        ;
+
+        <select> {
+            text-align: right;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="a"></div>
+    <div id="b"></div>
+    <form name="c" action="#" method="post">
+        <table>
+            <tr>
+                <td>用户名</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>性别：</td>
+                <td><label for="ni"><input type="radio" name="c" id="ni">女</label><label for="ha"><input type="radio"
+                            name="c" id="ha">男</label></td>
+                <!-- 单选绑定(radio)+框和文本绑定(label) -->
+                <td><label for="ni"><input type="checkbox" name="c" id="ni">女</label><label for="ha"><input
+                            type="checkbox" name="c" id="ha">男</label></td>
+                <!-- 复选绑定(checkbox)+框和文本绑定(label) -->
+            </tr>
+        </table>
+        <input type="button" value="search">
+        <input type="submit" value="123">
+        <input type="reset" value="444">
+        <input type="image" src="" width="100px">
+        <select>
+            <option>china</option>
+            <option>england</option>
+            <option>america</option>
+            <option>brazil</option>
+            <option>japan</option>
+            <option>korea</option>
+            <option>canada</option>
+
+
+        </select>
+    </form>
+    <video controls="controls" src="haha.mp4" width="200px" height="500px" poster="tenet.jpg"></video>
+
+
+</body>
+
+</html>

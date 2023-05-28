@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cpplint.cpplintPath": "C:\\Users\\user\\Anaconda3\\Scripts\\cpplint.exe",
+		"files.associations": {
+			"stdlib.h": "c",
+			"stdio.h": "c"
+		},
+		"cmake.generator": "MinGW Makefiles"
+	}
+}

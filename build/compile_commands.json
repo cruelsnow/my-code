@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/my code/build",
+  "command": "D:/MinGW/bin/g++.exe   -g -o CMakeFiles/alala.dir/alala.cpp.obj -c \"D:/my code/alala.cpp\"",
+  "file": "D:/my code/alala.cpp"
+}
+]

@@ -510,43 +510,6 @@ ContinuousSubmit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
-#=============================================================================
-# Target rules for targets named alala
-
-# Build rule for target.
-alala: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alala
-.PHONY : alala
-
-# fast build rule for target.
-alala/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alala.dir/build.make CMakeFiles/alala.dir/build
-.PHONY : alala/fast
-
-alala.obj: alala.cpp.obj
-.PHONY : alala.obj
-
-# target to build an object file
-alala.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alala.dir/build.make CMakeFiles/alala.dir/alala.cpp.obj
-.PHONY : alala.cpp.obj
-
-alala.i: alala.cpp.i
-.PHONY : alala.i
-
-# target to preprocess a source file
-alala.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alala.dir/build.make CMakeFiles/alala.dir/alala.cpp.i
-.PHONY : alala.cpp.i
-
-alala.s: alala.cpp.s
-.PHONY : alala.s
-
-# target to generate assembly for a file
-alala.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alala.dir/build.make CMakeFiles/alala.dir/alala.cpp.s
-.PHONY : alala.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -586,10 +549,6 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... alala"
-	@echo "... alala.obj"
-	@echo "... alala.i"
-	@echo "... alala.s"
 .PHONY : help
 
 

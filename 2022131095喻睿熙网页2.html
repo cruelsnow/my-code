@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #g {
+            text-align: center;
+        }
+
+        #back {
+            width: 800px;
+            height: 800px;
+            margin-left: 20%;
+            margin-right: 50%;
+            margin-top: 10%;
+            border: 1px solid black;
+        }
+
+        /* 框架 */
+
+        #yi {
+            margin-left: 50px;
+            margin-bottom: 40px;
+        }
+
+        /* 设计表格 */
+
+
+        #er {
+            width: 300px;
+
+        }
+
+        /* 文本框长度 */
+
+        #san {
+            margin-top: 40px;
+            width: 300px;
+
+
+        }
+
+
+        /* 文本框长度并且与上方的间隔 */
+
+        #ni {
+            margin-top: 40px;
+
+        }
+         /* 文本框长度并且与上方的间隔 */
+
+
+        #si {
+            margin-top: 40px;
+            width: 300px;
+
+        }
+         /* 文本框长度并且与上方的间隔 */
+
+
+        #wu {
+            margin-top: 40px;
+            width: 300px;
+        }
+         /* 文本框长度并且与上方的间隔 */
+
+
+        textarea {
+            width: 500px;
+            height: 200px;
+            margin-top: 40px;
+            margin-left: 100px;
+            position: absolute;
+        }
+        /* 设置滚动文本框格式，并且设置绝对定位 */
+
+        div {
+            position: relative;
+            right: -15px;
+            top: 150px;
+        }
+
+        #qi {
+            position: relative;
+            bottom: -300px;
+            left: -260px;
+        }
+
+        label.xrequired::before {
+            content: '*';
+            color: red;
+        }
+        /* 设置小红星标记 */
+    </style>
+
+</head>
+
+<body>
+    <div id="back">
+        <h1 id="g">用户信息注册</h1>
+        <table id="yi">
+            <tr>
+                <td id="you">姓名<label class="xrequired"></label> <input id="er" type="text"></td>
+
+            </tr>
+            <tr>
+                <td>手机<label class="xrequired"></label> <input id="san" type="number"></td>
+
+            </tr>
+            <tr>
+                <td>性别<label class="xrequired"></label><label for="ni"> <input type="radio" name="c"
+                            id="ni">女</label><label for="ha"><input type="radio" name="c" id="ha">男</label></td>
+                <!-- 单选绑定(radio)+框和文本绑定(label) -->
+            <tr>
+                <td>邮箱<label class="xrequired"></label> <input id="si" type="email"></td>
+            </tr>
+            <tr>
+                <td>职业<label class="xrequired"></label>
+                    <select id="wu">
+                        <option>公司员工</option>
+                        <option>学生</option>
+                        <option>老师</option>
+                    </select>
+                </td>
+            </tr>
+            <td>爱好 <label for="ni"><input type="checkbox" id="ni">音乐</label> <label for="ha"><input type="checkbox"
+                        name="c" id="ha">上网</label> <label for="ni"><input type="checkbox" id="ni">足球</label> <label
+                    for="ni"><input type="checkbox" id="ni">下棋</label></td>
+            <!-- 复选绑定(checkbox)+框和文本绑定(label) -->
+            </tr>
+            <tr>
+                <td>
+                    <div>个人简历</div>
+                    <textarea>请输入您的简历...</textarea>
+                </td>
+
+                <td>
+                    <input id="qi" type="button" value="提交"><input id="qi" type="reset" value="重置">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
